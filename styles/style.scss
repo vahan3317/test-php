@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Museo Sans Cyrl';
+    
+}
+.balance-div{
+    width: 255px;
+    height: 242px;
+    background: rgba(102, 102, 101, 0.08);
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 2px;
+    padding: 16px 38px;
+}
+.balance-div label{
+    font-weight: 400;
+}
+
+.coin{
+    display: flex;
+   align-items: center;
+   font-size: 52px;
+   
+}
+.coin span{
+   
+    padding-left: 6px;
+}
+.Eth{
+    padding-left: 6px;
+}
+.main{
+    
+    margin-top: 57px;
+    
+    margin-bottom: 3px;
+}
+.top-second{
+    margin: 0 auto;
+    margin-top: 12px;
+
+}
+
+
+
+
+.products{
+    margin-bottom: 22px;
+    text-align: center;
+}
+.coin2{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+   
+}
+.coin2 img{
+   
+    width: 16px ;
+    height: 14px ;
+    
+}
+.coin2 span{
+    padding-top: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.imgPhone{
+    
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+.buy{
+    width: 135px;
+height: 42px;
+
+background: rgb(241, 228, 52); 
+border-radius: 5px;
+border-style: none;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: aliceblue;
+margin-top: 5.74px;
+
+
+}
+.buy:focus{
+    background: #00CD52;
+    // content: "Использовать скидку";
+    
+}
+.top-second{
+    width: 255px;
+    background: rgba(102, 102, 101, 0.08);
+    
+    
+    border-radius: 2px;
+    padding: 16px 38px;
+    
+    
+
+}
+
+.buy:hover{
+    box-shadow: 2px 2px 2px 2px rgb(108, 106, 106);
+}
+.instruction{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   }
+   .inst1{
+    font-size: 22px;
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 13px;
+   }
+   .inst2{
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 300;
+font-size: 9px;
+line-height: 18px;
+   }
+   .inst2:hover{
+font-size: 12px;
+cursor: pointer;
+
+   }
+
+
+
+   .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 17px;
+    border: 1px solid #888;
+    width: 37%;
+    margin-bottom: 32px;
+  }
+  .inst3{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+   display: flex;
+   justify-content: flex-end;
+   
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .coinImg{
+    padding-top: 2px;
+  }
+
+ 
+
+@media (min-width: 964px) {
+    .main{
+        display: flex;
+        margin-top: 57px;
+        
+        margin-bottom: 3px;
+    }
+    .second-card{
+        width: 100%;
+        // height: 242px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+   .top-second{
+    width: 700px;
+    height: 242px;
+   }
+    .products{
+        margin-top: 41px;
+    }
+    .inst3{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      .modal-content{
+        padding: 37px;
+      }
+    
+   }
+   
+   
+
+
+
+
